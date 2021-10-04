@@ -1,7 +1,7 @@
 #!/bin/bash
 #Este Script corresponde al bonus de la Tarea 1 de Sistemas Operativos.
 #Verificación de parámetros:
-if [[ "-f" == "$1" ]] && [[ "-N" == "$3"  ]];
+if [[ "-f" == "$1" ]] && [[ "-N" == "$3" ]] && [[ "4" == "$#" ]];
 then
 	echo -e "Los parámetros ingresados son:\n Archivo: $2\n Cantidad de Permisos: $4\n"
 #Si no se encuentran.
